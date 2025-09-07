@@ -1,7 +1,10 @@
 [project]
 name = "discord-match-history"
 version = "0.1.0"
-description = "Add your description here"
+description = "Discord Bot that brings back match history"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "discord>=2.3.2",
+    "python-dotenv>=1.1.1",
+]
